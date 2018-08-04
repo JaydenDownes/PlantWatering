@@ -1,7 +1,7 @@
 # PlantWatering
 A small Python script to water a plant using a Raspberry Pi and Web Server!
-####Instructions
-#####GPIO Script
+#### Instructions:
+##### GPIO Script
 Let's start with the code for controlling the GPIO. This requires the RPi.GPIO python library which can be installed on your Raspberry Pi as follows:
 
 `$> python3.4 -m pip install RPi.GPIO`

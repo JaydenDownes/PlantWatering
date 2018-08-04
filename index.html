@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/froala-design-blocks/1.0.2/css/froala_blocks.min.css">
+  <link rel="stylesheet" href="src/plantwatering.min.css">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
@@ -10,41 +10,41 @@
   <link href='node_modules/jpopup/src/css/jPopup.css' rel='stylesheet'>
   <script src="node_modules/jpopup/src/js/jPopup.min.js"></script>
   <!-- Scripts for x0popup -->
-  <script src="node_modules/x0popup/src/js/x0popup.min.js"></script>
-  <link rel="stylesheet" href="node_modules/x0popup/src/css/x0popup.min.css">
+  <link href="dist/spop.min.css" rel="stylesheet"/>
+  <link href="src/styles.min.css" rel="stylesheet"/>
   <!-- Script Preloader -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script> <!-- I forgot this one and it took me a good six hours to figure out why my scripts wern't working -_- -->
 </head>
 <body>
- <br><br><br><br><br> <!-- Messy page breaks until I write some actual CSS -->
-<section class="fdb-block pb-0 fp-active" data-block-type="features" data-id="1" draggable="true">
+<section class="fdb-block fp-active" data-block-type="features" data-id="1">
   <div class="container">
     <div class="row text-lg-right align-items-center">
       <div class="col-12 col-sm-6 col-lg-3">
         <img alt="image" class="fdb-icon" src="assets/rain.svg">
-        <h4><strong>Water Plant(s)</strong></h4>
+          <h4><strong>Water Plant(s)</strong></h4>
         <p><small>Different plants have different watering needs. Some plants have deep roots or leaves that store water!</small></p>
 
         <img alt="image" class="fdb-icon mt-3 mt-xl-5" src="assets/island.svg">
         <h4><strong>Check Soil Moisture</strong></h4>
-        <p>On her way she met a copy of the Little Blind Text.</p>
+        <p>Check the Moisture of the soil in your plant!</p>
 
         <img alt="image" class="fdb-icon mt-3 mt-xl-5" src="assets/sunflower.svg">
         <h4><strong>Last Watered</strong></h4>
-        <p>Even the all-powerful has no control about the blind texts</p>
+        <p>Check when your plant was last watered.</p>
       </div>
 
       <div class="col-12 col-sm-6 col-lg-3 text-left pt-3 pt-sm-0 order-lg-12">
         <img alt="image" class="fdb-icon" src="assets/plant.svg">
         <h4><strong>Enable Watering Schedule</strong></h4>
-        <p>Duden flows by their place, behind the word mountains.</p>
+        <p>Enable auto watering so you don't have to even click a button!</p>
 
         <img alt="image" class="fdb-icon mt-3 mt-xl-5" src="assets/bamboo.svg">
         <h4><strong>Set Watering Schedule</strong></h4>
-        <p>Separated they live in Bookmark right at the coast</p>
+        <p>Set the automatic watering schedule.</p>
 
         <img alt="image" class="fdb-icon mt-3 mt-xl-5" src="assets/stone.svg">
         <h4><strong>Settings</strong></h4>
-        <p>A small river named Duden flows by their place and supplies it</p>
+        <p>Access some cool settings for the system.</p>
       </div>
 
       <div class="col-7 col-sm-4 col-lg-4 m-auto pt-5 pt-lg-0 order-lg-1">
@@ -52,6 +52,7 @@
       </div>
     </div>
   </div>
+
 </section>
     <!--
 <footer class="fdb-block footer-small bg-dark" data-block-type="footers" data-id="2">
@@ -92,9 +93,14 @@
     </div>
   </div>
 </footer> -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js"></script>
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js"></script>
-    
+<!-- Extra SPOP Scripts -->
+<script src="src/prism.js"></script>
+<script src="dist/spop.min.js"></script>
+<script src="src/scripts.min.js"></script>
+<script language="JavaScript">
+       
+    </script>
 </body>
 </html>

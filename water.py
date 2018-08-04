@@ -26,7 +26,7 @@ def init_output(pin):
 def auto_water(delay = 5, pump_pin = 7, water_sensor_pin = 8):
     consecutive_water_count = 0
     init_output(pump_pin)
-    print("Here we go! Press CTRL+C to exit")
+    print("Stem Plant Watering System has now Started. Press CTRL+C to exit")
     try:
         while 1 and consecutive_water_count < 10:
             time.sleep(delay)

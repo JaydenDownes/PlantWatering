@@ -81,7 +81,7 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-rendering: optimizelegibility;
-  padding: 175px;
+  padding: 200px;
   color: #444444;
   position: relative;
   background-size: cover;
@@ -260,3 +260,6 @@ header + header {
 
 table tr.no-border th, table tr.no-border td {
   border-top: 0; }
+.smalltext {
+    font-size: 10px;
+}

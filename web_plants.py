@@ -23,7 +23,7 @@ def hello():
 
 @app.route("/last_watered")
 def check_last_watered():
-    templateData = template(text = water.get_last_watered())
+    templateData = template(lastwatered = water.get_last_watered())
     return render_template('main.html', **templateData)
 
 @app.route("/sensor")

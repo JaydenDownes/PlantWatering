@@ -1,5 +1,6 @@
 # PlantWatering
 A small Python script to water a plant using a Raspberry Pi and Web Server!
+(Please note this is a prototype at the current stage and it will not function properly without work!)
 
 ![Screenshot of Web Application](https://i.imgur.com/8iMzxFV.jpg?raw=true)
 
